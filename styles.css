@@ -9,14 +9,6 @@ body {
     align-items: center;
 }
 
-header, footer, section {
-    background-color: #1f1f1f;
-    width: 80%;
-    max-width: 800px;
-    border-radius: 10px;
-    margin: 0 auto; /* Căn giữa tất cả phần tử */
-}
-
 header {
     text-align: center;
     padding: 20px;
@@ -54,9 +46,11 @@ h2 {
 }
 
 section {
+    background-color: #1f1f1f;
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
     text-align: left;
 }
 
@@ -70,6 +64,12 @@ p {
     align-items: center; /* Căn giữa theo chiều dọc */
     justify-content: center; /* Căn giữa theo chiều ngang */
     gap: 10px; /* Tạo khoảng cách giữa câu lệnh và nút */
+}
+
+div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 code {
