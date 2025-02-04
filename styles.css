@@ -78,6 +78,11 @@ code {
     border-radius: 5px;
     font-family: 'Courier New', monospace;
     text-align: center; /* Căn giữa nội dung bên trong */
+    display: block; 
+    word-wrap: break-word; /* Xuống dòng khi quá dài */
+    white-space: pre-wrap; /* Đảm bảo xuống dòng đúng */
+    overflow-x: auto; /* Cho phép cuộn ngang nếu cần */
+    max-width: 100%; /* Đảm bảo không bị tràn khỏi section */
 }
 
 ul {
